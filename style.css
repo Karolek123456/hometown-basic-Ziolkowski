@@ -1,0 +1,110 @@
+body {
+    margin:0px;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* hero section */
+
+#hero-section{
+    background-image: url("images/Bol-cover.jpg");
+    background-size: cover;
+    color:white;
+    padding:150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Title-txt {
+    background: #1D3557;
+    padding:14px 16px;
+    font-size: 25px;
+    
+}
+
+#subtitle-txt {
+    background: #457B9D;
+    font-size: 17px;
+    padding:8px 10px;
+
+
+}
+
+
+/* activities section */
+
+#activities-section {
+    background: #F1FAEE;
+    padding:30px;
+}
+
+
+#activities {
+    flex-direction: row;
+    margin:70px 20px ;
+    
+}
+
+
+
+/* Guide section */
+
+#Guide-card {
+    width: 450px;
+    margin: 70px auto;
+    padding: 40px;
+    background: #A8DADC;
+    color: #2b2839;
+    border-bottom: 6px solid #1D3557;
+}
+
+#guide-descript {
+padding:20px;
+}
+
+
+#guide-img {
+   width:200px;
+}
+
+#Guide-card:hover {
+    box-shadow: 10px 5px 5px black;
+}
+
+
+
+/* UTILITY CLASSES / repeatable code */
+
+
+.dark-blue {
+    color: #1D3557;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.images-round {
+    clip-path: circle(40%);
+    width:150px;
+}
+
+.hero-txt,
+#guide-img,
+#Guide-card {
+    border-radius:10px;
+}
+
+#hero-section,
+#Guide-card,
+#activities {
+    display: flex;
+}
+
+#activities,
+#Guide-card {
+    justify-content: space-around;
+}
+
+
+
